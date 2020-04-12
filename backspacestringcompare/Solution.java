@@ -28,4 +28,12 @@ public class Solution {
         return true;
     }
 
+    public static void main(String args[]){
+        Solution s = new Solution();
+        String S = "w#e#e#eeeeeee";
+        String T = "w#e#e#eeeeeee";
+        
+        System.out.println(s.backspaceCompare(S, T));
+    }
+
 }
